@@ -1,5 +1,17 @@
 <html>
   <head>
+    <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "a8abd93c-02e0-4168-ac83-bdd7099ac25b",
+      autoRegister: false,
+      notifyButton: {
+        enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
     <meta charset="utf-8">
     <title>Suventure Product Demo</title>
     <!-- Compiled and minified CSS -->
