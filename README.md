@@ -1,4 +1,4 @@
-# product-catalog-sample
+# Simple Calculator
 
 ## Summary
 
