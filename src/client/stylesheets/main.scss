@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://npmcdn.com/react-bootstrap-table@2.7.1/dist/react-bootstrap-table-all.min.css');
+@import url('https://unpkg.com/react-select/dist/react-select.css');
+// @import '../../node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 0;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  // background: linear-gradient(#48B 50%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #48B 50%, rgba(255, 255, 255, 0) 0) 55px 0 #FFF;
+  background-color: white;
+  //background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
+}
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+#body {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: -88px;
+  min-height: 100%;
+  margin-left: 200px;
+  width: 100%;
+  padding-top: 0px !important;
+}
+
+footer {
+  position: absolute;
+  bottom: -100;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.text-footer {
+    text-shadow: none;
+    font-size: 14px;
+    color: #999;
+    padding: 20px 0 0 5px;
+    margin-left: -90px;
+    margin-right: 5px;
+}
+
+.hide {
+   display: none;
+ }
+
+.boldText {
+  font-size: large;
+  font-weight: 900;
+  color: lightseagreen;
+}
+
+.tag {
+  background-color: #31708f;
+  border-radius: 9px;
+  color: #bce8f1;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 15px;
+  padding: 2px 12px 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  &.tag-success {
+    background-color: #388e3c;
+    width: 75px;
+  }
+
+  &.tag-danger {
+    background-color: #a94442;
+    width: 100px;
+  }
+}
+
+.inStock {
+  background-color: #388e3c;
+}
+
+.priceTag {
+  font-weight: 900;
+  font-size: large;
+  padding-left: 20px;
+  padding-top: 15px;
+  color: lightseagreen;
+}
+
+nav {
+  background-color: #e40046;
+}
+
+.navbarColor {
+  background-color: lightseagreen;
+}
+
+.brandColor {
+  color: white;
+}
+
+.errorMessage {
+  color: #ff0000;
+}
+
+.hr-styling {
+  width: 350%;
+  border-top: 1px solid lightseagreen;
+}
+
+.adjacentSpace {
+  padding-left: 10px;
+  margin-left: 5px;
+}
+
+.whiteText {
+  color: white;
+}
+
+.editHeaderName {
+  font-style: italic;
+}
+
+.navbar-header {
+  .navbar-brand {
+    color: #fff;
+  }
+}
+
+.drag-left {
+  margin-left: 75px
+}
+
+.footer-left {
+  margin-left: -15px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.font-remove-underline {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.button-width {
+  width: 75px;
+}
+
+.margin-left-25 {
+  margin-left: 25px;
+}
+
+.margin-left-45 {
+  margin-left: 45px;
+}
+
+.float-center {
+  margin-left: 500px;
+  width: 50%;
+}
+.margin-right-75px {
+  margin-right: 75px;
+}
+
+.button-equal {
+  width: 300px;
+  margin-top: 5px;
+}
+
+.button-dot {
+  width: 75px;
+  margin-top: 5px;
+}
